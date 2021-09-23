@@ -17,14 +17,14 @@ A demo scene has been provided in the /Scenes/ directory.
 * You should be able to add or remove abilities by clicking on the player and modifying the abilities in the inspector
   * This can also be done during play
 
-:warning: There is a known issue with the UI when making code changes while playing.  To resolve, simply exit play mode and reenter.  There are currently no plans to resolve this issue because this is not a UI demo.
+:warning: There is a known issue with the UI when making code changes while playing.  To resolve, exit play mode and reenter.  There are currently no plans to resolve this issue because this is not a UI demo.
 
 # About the Design
 This proof of concept attempts to adhere to [coding best practices](https://en.wikipedia.org/wiki/Coding_best_practices).  To this end, the following has been considered:
 * The characters are not concerned with how to cast an ability, that is the job of the ability itself
 * The characters are not concerned with if the ability successfully cast, they simply announce that they wish to cast an ability
 * The ability manager will listen for any invocations of an ability and cast them accordingly
-  * This means an ability can be cast from sources other than a character by simply adding a new listener 
+  * This means an ability can be cast from sources other than a character by adding a new listener 
 * Abilities are contained to their own files to maximize simplicity, readability, and maintainability
 
 # Licence
