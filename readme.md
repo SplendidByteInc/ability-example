@@ -20,7 +20,7 @@ A demo scene has been provided in the /Scenes/ directory.
 :warning: There is a known issue with the UI when making code changes while playing.  To resolve, simply exit play mode and reenter.  There are currently no plans to resolve this issue because this is not a UI demo.
 
 # About the Design
-This proof of concept attempts to adhere to (coding best practices)[https://en.wikipedia.org/wiki/Coding_best_practices].  To this end, the following has been considered:
+This proof of concept attempts to adhere to [coding best practices](https://en.wikipedia.org/wiki/Coding_best_practices).  To this end, the following has been considered:
 * The characters are not concerned with how to cast an ability, that is the job of the ability itself
 * The characters are not concerned with if the ability successfully cast, they simply announce that they wish to cast an ability
 * The ability manager will listen for any invocations of an ability and cast them accordingly
